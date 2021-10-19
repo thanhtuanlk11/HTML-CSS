@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --white: #f1f1f1;
+    --black: #333;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: linear 0.2s;
+}
+
+h1 {}
