@@ -52,5 +52,20 @@ h1 {
     align-items: center;
     font-size: 1.3em;
     font-weight: bold;
-    transition: linear 0.2s;
+}
+
+.on.toogle::before {
+    content: 'On';
+    position: absolute;
+    top: 5px;
+    right: 105px;
+    width: calc(50% - 10px);
+    height: calc(100% - 10px);
+    border-radius: 5px;
+    background: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: bold;
 }
