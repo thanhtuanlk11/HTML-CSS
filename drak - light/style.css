@@ -21,4 +21,17 @@ body {
     transition: linear 0.2s;
 }
 
-h1 {}
+h1 {
+    position: absolute;
+    font-size: 20em;
+    color: rgba(0, 0, 0, 0.1);
+    user-select: none;
+}
+
+.toogle {
+    position: relative;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.2), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
