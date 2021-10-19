@@ -34,4 +34,12 @@ h1 {
     height: 60px;
     border-radius: 5px;
     box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.2), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    background: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    transition: linear 0.2s;
 }
