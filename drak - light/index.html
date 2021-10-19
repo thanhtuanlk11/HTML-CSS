@@ -15,12 +15,12 @@
 </body>
 <script>
     const toggle = document.querySelector('.toggle');
-    const body = document.querySelector('.body');
+    const body = document.querySelector('body');
     const state = document.getElementById('state');
 
     toggle.onclick = function() {
         toggle.classList.toggle('on');
-        body.classList.toggle('black');
+        body.classList.toggle('dark');
 
         if (state.innerHTML === 'Dark') {
             state.innerHTML = 'Light'
