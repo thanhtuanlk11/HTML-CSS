@@ -13,5 +13,21 @@
     <h1 id="state">Dark</h1>
     <div class="toogle"></div>
 </body>
+<script>
+    const toggle = document.querySelector('.toogle');
+    const body = document.querySelector('.body');
+    const state = document.querySelector('state');
+
+    toggle.onclick = function() {
+        toggle.classList.toggle('on');
+        body.classList.toggle('black');
+
+        if (state.innerHTML === 'Dark') {
+            state.innerHTML = 'Light'
+        } else {
+            state.innerHTML = 'Dark'
+        }
+    }
+</script>
 
 </html>
