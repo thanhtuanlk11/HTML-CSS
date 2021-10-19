@@ -11,12 +11,12 @@
 
 <body>
     <h1 id="state">Dark</h1>
-    <div class="toogle"></div>
+    <div class="toggle"></div>
 </body>
 <script>
-    const toggle = document.querySelector('.toogle');
+    const toggle = document.querySelector('.toggle');
     const body = document.querySelector('.body');
-    const state = document.querySelector('state');
+    const state = document.getElementById('state');
 
     toggle.onclick = function() {
         toggle.classList.toggle('on');
