@@ -91,7 +91,7 @@ nav .toggle_menu {
     width: 45px;
     height: 45px;
     display: flex;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     background: #f1f1f1;
     border-radius: 0 10px 10px 0;
@@ -101,14 +101,14 @@ nav .toggle_menu {
 
 nav .toggle_menu ion-icon {
     color: #1e90ff;
-    font-size: 1em;
-    transform: linear 0.2s;
+    font-size: 1.5em;
+    transition: linear 0.2s;
 }
 
 nav .toggle_menu.hover {
     background: #1e90ff;
 }
 
-nav.toggle_menu:hover ion-icon {
+nav .toggle_menu:hover ion-icon {
     color: white;
 }
